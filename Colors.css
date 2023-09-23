@@ -1,0 +1,3 @@
+body {
+	--color-accent-half: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + ((100% - var(--accent-l)) / 2)));
+}

@@ -1,0 +1,63 @@
+/* Checkmark callout */
+.callout[data-callout="s"],
+.callout[data-callout="selected"]
+{
+    --callout-color: var(--color-accent);
+    --callout-icon: check-square;
+
+    border-color: var(--callout-color);
+    background-color: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.1);
+}
+.callout[data-callout="s"] .callout-title,
+.callout[data-callout="selected"] .callout-title
+{
+    color: var(--callout-color);
+}
+
+/* Empty */
+.callout[data-callout="_"],
+.callout[data-callout="e"],
+.callout[data-callout="empty"]
+{
+    --callout-color: var(--callout-quote);
+    --callout-icon: square;
+}
+
+/* X-mark */
+.callout[data-callout="x"]
+{
+    --callout-color: var(--color-red-rgb);
+    --callout-icon: x-square;
+}
+
+/* Plus */
+.callout[data-callout="+"],
+.callout[data-callout="plus"]
+{
+    --callout-color: var(--color-green-rgb);
+    --callout-icon: plus-square;
+}
+
+/* Minus */
+.callout[data-callout="-"],
+.callout[data-callout="minus"]
+{
+    --callout-color: var(--color-yellow-rgb);
+    --callout-icon: minus-square;
+}
+
+/* None */
+.callout[data-callout="n"],
+.callout[data-callout="none"]
+{
+    color: var(--text-faint);
+    --callout-color: var(--callout-quote);
+    --callout-icon: box-select;
+}
+.callout[data-callout="n"] .callout-title-inner,
+.callout[data-callout="n"] .callout-title,
+.callout[data-callout="none"] .callout-title-inner,
+.callout[data-callout="none"] .callout-title
+{
+    color: var(--text-faint);
+}

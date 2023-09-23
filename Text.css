@@ -1,0 +1,13 @@
+/* Highlighted text */
+.cm-s-obsidian span.cm-highlight,
+.markdown-rendered mark {
+    background-color: unset;
+    color: var(--text-accent);
+}
+
+/* Striketrough text */
+.cm-s-obsidian span.cm-strikethrough,
+.markdown-rendered del {
+    color: var(--text-faint);
+    text-decoration: none;
+}

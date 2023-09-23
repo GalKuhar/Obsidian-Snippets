@@ -1,0 +1,18 @@
+.embed-title.markdown-embed-title {
+    align-items: center;
+	display: flex;
+	gap: var(--size-4-1);
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 0 var(--size-4-2) 0;
+
+    font-variant: var(--h1-variant);
+	letter-spacing: -0.015em;
+	line-height: var(--h1-line-height);
+	font-size: var(--h1-size);
+	color: var(--h1-color);
+	font-weight: var(--h1-weight);
+	font-style: var(--h1-style);
+	font-family: var(--h1-font);
+}

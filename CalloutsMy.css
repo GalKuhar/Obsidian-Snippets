@@ -1,0 +1,68 @@
+/* DEFAULT */
+/* uses theme color */
+.callout[data-callout="d"],
+.callout[data-callout="default"] {
+    --callout-color: var(--color-accent);
+    --callout-icon: sticky-note;
+
+    border-color: var(--callout-color);
+    background-color: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.1);
+}
+.callout[data-callout="d"] .callout-title,
+.callout[data-callout="default"] .callout-title {
+    color: var(--callout-color);
+}
+
+/* BASE COLORS */
+.callout[data-callout="r"],
+.callout[data-callout="red"] {
+    --callout-color: var(--color-red-rgb);
+    --callout-icon: sticky-note;
+}
+
+.callout[data-callout="o"],
+.callout[data-callout="orange"] {
+    --callout-color: var(--color-orange-rgb);
+    --callout-icon: sticky-note;
+}
+
+.callout[data-callout="y"],
+.callout[data-callout="yellow"] {
+    --callout-color: var(--color-yellow-rgb);
+    --callout-icon: sticky-note;
+}
+
+.callout[data-callout="g"],
+.callout[data-callout="green"] {
+    --callout-color: var(--color-green-rgb);
+    --callout-icon: sticky-note;
+}
+
+.callout[data-callout="c"],
+.callout[data-callout="cyan"] {
+    --callout-color: var(--color-cyan-rgb);
+    --callout-icon: sticky-note;
+}
+
+.callout[data-callout="b"],
+.callout[data-callout="blue"] {
+    --callout-color: var(--color-blue-rgb);
+    --callout-icon: sticky-note;
+}
+
+.callout[data-callout="p"],
+.callout[data-callout="purple"] {
+    --callout-color: var(--color-purple-rgb);
+    --callout-icon: sticky-note;
+}
+
+.callout[data-callout="pink"] {
+    --callout-color: var(--color-pink-rgb);
+    --callout-icon: sticky-note;
+}
+
+.callout[data-callout="w"],
+.callout[data-callout="white"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: sticky-note;
+}

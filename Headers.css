@@ -1,0 +1,47 @@
+body {
+	--p-spacing: 0.5rem;
+	
+    --h1-color: inherit;
+	--h2-color: var(--color-accent-half);
+	--h3-color: var(--color-accent-half);
+	--h4-color: var(--color-accent-half);
+	--h5-color: var(--color-accent-half);
+	--h6-color: var(--color-accent-half);
+    --h1-size: 2em;
+	--h2-size: 1.6em;
+	--h3-size: 1.4em;
+	--h4-size: 1.3em;
+	--h5-size: 1.2em;
+	--h6-size: 1.1em;
+	--h1-weight: var(--bold-weight);
+	--h2-weight: var(--bold-weight);
+	--h3-weight: var(--bold-weight);
+	--h4-weight: var(--bold-weight);
+	--h5-weight: var(--bold-weight);
+	--h6-weight: var(--bold-weight);
+    --h1-line-height: var(--line-height-normal);
+	--h2-line-height: var(--line-height-normal);
+	--h3-line-height: var(--line-height-normal);
+	--h4-line-height: var(--line-height-normal);
+	--h5-line-height: var(--line-height-normal);
+	--h6-line-height: var(--line-height-normal);
+}
+
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6 {
+	margin: 0;
+	letter-spacing: 0;
+}
+
+.HyperMD-header-1,
+.HyperMD-header-2,
+.HyperMD-header-3,
+.HyperMD-header-4,
+.HyperMD-header-5,
+.HyperMD-header-6 {
+	letter-spacing: 0;
+}
