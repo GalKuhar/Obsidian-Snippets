@@ -1,4 +1,5 @@
 /* Checkmark callout */
+/* Default color */
 .callout[data-callout="s"],
 .callout[data-callout="selected"]
 {
@@ -15,6 +16,7 @@
 }
 
 /* Empty */
+/* Grey + faded out */
 .callout[data-callout="_"],
 .callout[data-callout="e"],
 .callout[data-callout="empty"]
@@ -24,6 +26,7 @@
 }
 
 /* X-mark */
+/* Red */
 .callout[data-callout="x"]
 {
     --callout-color: var(--color-red-rgb);
@@ -31,6 +34,7 @@
 }
 
 /* Plus */
+/* Green */
 .callout[data-callout="+"],
 .callout[data-callout="plus"]
 {
@@ -39,6 +43,7 @@
 }
 
 /* Minus */
+/* Yellow */
 .callout[data-callout="-"],
 .callout[data-callout="minus"]
 {
@@ -47,6 +52,7 @@
 }
 
 /* None */
+/* Grey */
 .callout[data-callout="n"],
 .callout[data-callout="none"]
 {

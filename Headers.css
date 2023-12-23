@@ -45,3 +45,10 @@ body {
 .HyperMD-header-6 {
 	letter-spacing: 0;
 }
+
+div.HyperMD-header.HyperMD-header-2.cm-line,
+h2 {
+	border-top: solid;
+	padding-top: 0 !important;
+	margin-top: var(--p-spacing) !important;
+}

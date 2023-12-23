@@ -11,3 +11,12 @@
     color: var(--text-faint);
     text-decoration: none;
 }
+
+.cm-s-obsidian .cm-strikethrough .cm-underline {
+    color: var(--color-accent-half)
+}
+
+.cm-s-obsidian .cm-strikethrough.cm-formatting-link,
+.cm-s-obsidian .cm-strikethrough.cm-hmd-internal-link {
+    color: var(--color-accent-half)
+}
