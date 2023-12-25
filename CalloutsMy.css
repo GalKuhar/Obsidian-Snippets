@@ -62,7 +62,8 @@
 }
 
 .callout[data-callout="w"],
-.callout[data-callout="white"] {
+.callout[data-callout="white"],
+.callout[data-callout="grey"] {
     --callout-color: var(--callout-quote);
     --callout-icon: sticky-note;
 }
