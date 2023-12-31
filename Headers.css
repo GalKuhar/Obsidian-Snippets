@@ -13,8 +13,8 @@ body {
 	--h4-size: 1.3em;
 	--h5-size: 1.2em;
 	--h6-size: 1.1em;
-	--h1-weight: var(--bold-weight);
-	--h2-weight: var(--bold-weight);
+	--h1-weight: var(--font-bold);
+	--h2-weight: var(--font-bold);
 	--h3-weight: var(--bold-weight);
 	--h4-weight: var(--bold-weight);
 	--h5-weight: var(--bold-weight);
@@ -51,4 +51,9 @@ h2 {
 	border-top: solid;
 	padding-top: 0 !important;
 	margin-top: var(--p-spacing) !important;
+}
+
+.cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-5,
+.cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-6 {
+	padding-top: 0;
 }
