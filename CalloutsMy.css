@@ -67,3 +67,9 @@
     --callout-color: var(--callout-quote);
     --callout-icon: sticky-note;
 }
+
+.callout[data-callout="idea"],
+.callout[data-callout="i"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lightbulb;
+}
