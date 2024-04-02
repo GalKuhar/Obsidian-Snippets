@@ -3,7 +3,7 @@ body {
   --callout-border-opacity:  1;
   --callout-radius: var(--radius-s);
   --callout-padding: 0;
-  --callout-title-padding:  var(--size-2-2) var(--size-4-4);
+  --callout-title-padding:  var(--size-4-2) var(--size-4-4);
   --callout-content-padding:  var(--size-2-2) var(--size-4-4);
 }
 
