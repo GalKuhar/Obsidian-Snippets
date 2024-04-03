@@ -1,0 +1,31 @@
+.markdown-rendered {
+    .callout-content h1 {
+        font-size: 1.3em;
+    }
+
+    .callout-content h2 {
+        font-size: 1.2em;
+        font-weight: var(--bold-weight);
+    }
+
+    .callout-content h3 {
+        font-size: 1.2em;
+        padding-top: var(--p-spacing);
+    }
+
+    .callout-content h4 {
+        font-size: 1.1em;
+        padding-top: var(--p-spacing);
+    }
+
+    .callout-content h5 {
+        font-size: 1em;
+        font-weight: unset;
+    }
+
+    .callout-content h6 {
+        font-size: 1em;
+        font-weight: unset;
+        color: inherit;
+    }
+}    
