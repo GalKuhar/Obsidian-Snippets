@@ -68,8 +68,9 @@
     --callout-icon: sticky-note;
 }
 
+/* MY CALLOUTS */
 .callout[data-callout="idea"],
 .callout[data-callout="i"] {
-    --callout-color: var(--callout-quote);
+    --callout-color: var(--color-yellow-rgb);
     --callout-icon: lightbulb;
 }
