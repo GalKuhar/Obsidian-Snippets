@@ -11,17 +11,16 @@ body:active {
   --callout-padding: 0;
 }
 
-.callout-title-inner {
-  color: var(--text-normal);
-}
-
-.callout-content {
+.callout {
   background-color: var(--background-primary-alt);
 }
 
-.callout-content p {
-  margin-block-start: 0;
-  margin-block-end: 0;
+.callout-title {
+  background-color: rgba(var(--callout-color), 0.1);
+}
+
+.callout-title-inner {
+  color: var(--text-normal);
 }
 
 .markdown-rendered ul,
@@ -31,16 +30,6 @@ ul {
 	margin-block-end: 0;
 }
 
-.callout-title-inner h1,
-.callout-title-inner h2,
-.callout-title-inner h3,
-.callout-title-inner h4,
-.callout-title-inner h5,
-.callout-title-inner h6 {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
 .callout-icon,
 .callout-fold {
   margin: auto 0;
@@ -48,4 +37,12 @@ ul {
 
 .markdown-source-view.mod-cm6 .callout .callout {
   margin: 1em 0;
+}
+
+.callout-content {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: rgba(var(--callout-color), 0.1);
 }

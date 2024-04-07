@@ -2,15 +2,8 @@
 /* uses theme color */
 .callout[data-callout="d"],
 .callout[data-callout="default"] {
-    --callout-color: var(--color-accent);
+    --callout-color: var(--color-accent-rgb);
     --callout-icon: sticky-note;
-
-    border-color: var(--callout-color);
-    background-color: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.1);
-}
-.callout[data-callout="d"] .callout-title,
-.callout[data-callout="default"] .callout-title {
-    color: var(--callout-color);
 }
 
 /* BASE COLORS */
@@ -69,8 +62,124 @@
 }
 
 /* MY CALLOUTS */
+/* Idea */
+/* Yellow */
 .callout[data-callout="idea"],
 .callout[data-callout="i"] {
     --callout-color: var(--color-yellow-rgb);
     --callout-icon: lightbulb;
 }
+
+/* Checkmark callout */
+/* Default color */
+.callout[data-callout="s"],
+.callout[data-callout="selected"]
+{
+    --callout-color: var(--color-accent-rgb);
+    --callout-icon: "check-square";
+}
+
+/* Empty */
+/* Grey + faded out */
+.callout[data-callout="_"],
+.callout[data-callout="e"],
+.callout[data-callout="empty"]
+{
+    --callout-color: var(--callout-quote);
+    --callout-icon: "square";
+}
+
+/* X-mark */
+/* Red */
+.callout[data-callout="x"]
+{
+    --callout-color: var(--color-red-rgb);
+    --callout-icon: "x-square";
+}
+
+/* Slash */
+/* Orange */
+.callout[data-callout="/"],
+.callout[data-callout="slash"]
+{
+    --callout-color: var(--color-orange-rgb);
+    --callout-icon: "square-slash";
+}
+
+/* Plus */
+/* Green */
+.callout[data-callout="+"],
+.callout[data-callout="plus"]
+{
+    --callout-color: var(--color-green-rgb);
+    --callout-icon: "plus-square";
+}
+
+/* Minus */
+/* Yellow */
+.callout[data-callout="-"],
+.callout[data-callout="minus"]
+{
+    --callout-color: var(--color-yellow-rgb);
+    --callout-icon: "minus-square";
+}
+
+/* None */
+/* Grey */
+.callout[data-callout="n"],
+.callout[data-callout="none"]
+{
+    color: var(--text-faint);
+    --callout-color: var(--callout-quote);
+    --callout-icon: "box-select";
+}
+
+.callout[data-callout="n"]>.callout-title>.callout-title-inner,
+.callout[data-callout="n"]>.callout-title>.callout-icon>.svg-icon,
+.callout[data-callout="none"]>.callout-title>.callout-title-inner,
+.callout[data-callout="none"]>.callout-title>.callout-icon>.svg-icon
+{
+    color: var(--text-faint);
+}
+
+/* Headers */
+.callout-title-inner h1,
+.callout-title-inner h2,
+.callout-title-inner h3,
+.callout-title-inner h4,
+.callout-title-inner h5,
+.callout-title-inner h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.markdown-rendered .callout-content h1 {
+    font-size: 1.3em;
+}
+
+.markdown-rendered .callout-content h2 {
+    font-size: 1.2em;
+    font-weight: var(--bold-weight);
+}
+
+.markdown-rendered .callout-content h3 {
+    font-size: 1.2em;
+    padding-top: var(--p-spacing);
+}
+
+.markdown-rendered .callout-content h4 {
+    font-size: 1.1em;
+    padding-top: var(--p-spacing);
+}
+
+.markdown-rendered .callout-content h5 {
+    font-size: 1em;
+    font-weight: unset;
+}
+
+.markdown-rendered .callout-content h6 {
+    font-size: 1em;
+    font-weight: unset;
+    color: inherit;
+}
+  
