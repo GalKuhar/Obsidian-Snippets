@@ -1,0 +1,22 @@
+.markdown-embed {
+    padding-left: 18px;
+}
+  
+[alt="c"].internal-embed.markdown-embed.inline-embed,
+[alt="callout"].internal-embed.markdown-embed.inline-embed {
+    padding: 0;
+    border-left: unset;
+    margin: 1em 0;
+
+    .markdown-rendered {
+        overflow-y: unset;
+    }
+
+    .markdown-embed-title {
+        padding: 0;
+    }
+
+    .markdown-preview-section>div>.callout {
+        margin: 0;
+    }
+}
