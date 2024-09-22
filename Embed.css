@@ -1,6 +1,11 @@
 .markdown-embed {
     padding-left: 18px;
 }
+
+.markdown-source-view.mod-cm6 .edit-block-button {
+    opacity: 1;
+    padding: var(--size-2-2);
+}
   
 [alt="c"].internal-embed.markdown-embed.inline-embed,
 [alt="callout"].internal-embed.markdown-embed.inline-embed {
