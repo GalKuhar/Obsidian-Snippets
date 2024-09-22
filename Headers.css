@@ -60,6 +60,18 @@ h2 {
 
 /** COLORS */
 /* bolded title => green */
+h1 em,
+h2 em,
+h3 em,
+h4 em,
+h5 em,
+h6 em,
+.cm-header.cm-em {
+	font-style: normal;
+	color: var(--color-green);
+	font-weight: var(--font-weight);
+}
+
 h1 strong,
 h2 strong,
 h3 strong,
@@ -67,52 +79,24 @@ h4 strong,
 h5 strong,
 h6 strong,
 .cm-header.cm-strong {
-	color: var(--color-green);
-}
-
-/* bolded + highlight => yellow */
-h1 strong mark,
-h2 strong mark,
-h3 strong mark,
-h4 strong mark,
-h5 strong mark,
-h6 strong mark,
-h1 mark strong,
-h2 mark strong,
-h3 mark strong,
-h4 mark strong,
-h5 mark strong,
-h6 mark strong,
-.cm-header.cm-strong.cm-highlight {
 	color: var(--color-yellow);
+	font-weight: var(--font-weight);
 }
 
-/* bolded + striketrough => red */
-h1 strong del,
-h2 strong del,
-h3 strong del,
-h4 strong del,
-h5 strong del,
-h6 strong del,
-h1 del strong,
-h2 del strong,
-h3 del strong,
-h4 del strong,
-h5 del strong,
-h6 del strong,
-/* overwrite links */
-.markdown-rendered h1 strong del a.internal-link,
-.markdown-rendered h2 strong del a.internal-link,
-.markdown-rendered h3 strong del a.internal-link,
-.markdown-rendered h4 strong del a.internal-link,
-.markdown-rendered h5 strong del a.internal-link,
-.markdown-rendered h6 strong del a.internal-link,
-.markdown-rendered h1 del strong a.internal-link,
-.markdown-rendered h2 del strong a.internal-link,
-.markdown-rendered h3 del strong a.internal-link,
-.markdown-rendered h4 del strong a.internal-link,
-.markdown-rendered h5 del strong a.internal-link,
-.markdown-rendered h6 del strong a.internal-link,
-.cm-header.cm-strikethrough.cm-strong {
-    color: var(--color-red);
+h1 strong em,
+h2 strong em,
+h3 strong em,
+h4 strong em,
+h5 strong em,
+h6 strong em,
+h1 em strong,
+h2 em strong,
+h3 em strong,
+h4 em strong,
+h5 em strong,
+h6 em strong,
+.cm-header.cm-strong.cm-em {
+	color: var(--color-red);
+	font-style: normal;
+	font-weight: var(--font-weight);
 }
