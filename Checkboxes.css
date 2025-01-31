@@ -28,8 +28,8 @@ li[data-task="+"]>p>input:checked {
 input[data-task="+"]:checked::after,
 li[data-task="+"]>input:checked::after,
 li[data-task="+"]>p>input:checked::after {
-    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>');
-    -webkit-mask-size: 66.6%;
+    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>');
+    -webkit-mask-size: 80%;
 }
 
 
@@ -45,8 +45,26 @@ li[data-task="-"]>p>input:checked {
 input[data-task="-"]:checked::after,
 li[data-task="-"]>input:checked::after,
 li[data-task="-"]>p>input:checked::after {
-    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>');
-    -webkit-mask-size: 66.6%;
+    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus"><path d="M5 12h14"/></svg>');
+    -webkit-mask-size: 80%;
+}
+
+
+/* Checkbox slash / */
+input[data-task="/"]:checked,
+li[data-task="/"]>input:checked,
+li[data-task="/"]>p>input:checked {
+    --checkbox-color-hover: var(--color-orange);
+    background-color: var(--color-orange);
+    border-color: transparent;
+    /* border-radius: 50%; */
+}
+
+input[data-task="/"]:checked::after,
+li[data-task="/"]>input:checked::after,
+li[data-task="/"]>p>input:checked::after {
+    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/></svg>');
+    -webkit-mask-size: 80%;
 }
 
 
@@ -63,23 +81,58 @@ li[data-task="X"]>p>input:checked {
 input[data-task="X"]:checked::after,
 li[data-task="X"]>input:checked::after,
 li[data-task="X"]>p>input:checked::after {
-    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>');
-    -webkit-mask-size: 66.6%;
+    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>');
+    -webkit-mask-size: 80%;
+}
+
+/* Checkbox Equivalent = */
+input[data-task="="]:checked,
+li[data-task="="]>input:checked,
+li[data-task="="]>p>input:checked {
+    --checkbox-color-hover: var(--color-accent-half);
+    background-color: var(--color-accent-half);
+    border-color: transparent;
+    /* border-radius: 50%; */
+}
+
+input[data-task="="]:checked::after,
+li[data-task="="]>input:checked::after,
+li[data-task="="]>p>input:checked::after {
+    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-equal"><line x1="5" x2="19" y1="9" y2="9"/><line x1="5" x2="19" y1="15" y2="15"/></svg>');
+    -webkit-mask-size: 80%;
 }
 
 
-/* Checkbox In Progress / */
-input[data-task="/"]:checked,
-li[data-task="/"]>input:checked,
-li[data-task="/"]>p>input:checked {
+/* Checkbox Approximate ~ */
+input[data-task="~"]:checked,
+li[data-task="~"]>input:checked,
+li[data-task="~"]>p>input:checked {
+    --checkbox-color-hover: var(--color-cyan);
+    background-color: var(--color-cyan);
+    border-color: transparent;
+    /* border-radius: 50%; */
+}
+
+input[data-task="~"]:checked::after,
+li[data-task="~"]>input:checked::after,
+li[data-task="~"]>p>input:checked::after {
+    -webkit-mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-equal-approximately"><path d="M5 15a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0"/><path d="M5 9a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0"/></svg>');
+    -webkit-mask-size: 80%;
+}
+
+
+/* Checkbox In Progress _ */
+input[data-task="_"]:checked,
+li[data-task="_"]>input:checked,
+li[data-task="_"]>p>input:checked {
     --checkbox-color: var(--color-base-50);
     --checkbox-color-hover: var(--color-base-50);
     border-width: 1px;
 }
 
-input[data-task="/"]:checked::after,
-li[data-task="/"]>input:checked::after,
-li[data-task="/"]>p>input:checked::after {
+input[data-task="_"]:checked::after,
+li[data-task="_"]>input:checked::after,
+li[data-task="_"]>p>input:checked::after {
     background-color: transparent;
 }
 
@@ -315,7 +368,10 @@ li[data-task=">"]>p>input:checked::after {
 /* Checkbox Quote " */
 input[data-task='"']:checked,
 li[data-task='"']>input:checked,
-li[data-task='"']>p>input:checked {
+li[data-task='"']>p>input:checked,
+input[data-task='q']:checked,
+li[data-task='q']>input:checked,
+li[data-task='q']>p>input:checked {
     --checkbox-color: transparent;
     --checkbox-color-hover: transparent;
     border-width: 0;
@@ -323,7 +379,10 @@ li[data-task='"']>p>input:checked {
 
 input[data-task='"']:checked::after,
 li[data-task='"']>input:checked::after,
-li[data-task='"']>p>input:checked::after {
+li[data-task='"']>p>input:checked::after,
+input[data-task='q']:checked::after,
+li[data-task='q']>input:checked::after,
+li[data-task='q']>p>input:checked::after {
     -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z'/%3E%3C/svg%3E");
     -webkit-mask-size:contain;
     background-color: var(--color-base-50);
