@@ -1,6 +1,10 @@
 body {
 	--color-accent-half: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + ((100% - var(--accent-l)) / 2)));
 
-	--color-accent-rgb: 68, 207, 110;
-	--color-accent-half-rgb: 162, 231, 183;
+	/* green */
+	/* --color-accent-rgb: 68, 207, 110; */
+	/* --color-accent-half-rgb: 162, 231, 183; */
+
+	/* purple */
+	--color-accent-rgb: 139, 92, 245;
 }
