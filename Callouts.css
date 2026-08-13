@@ -1,4 +1,6 @@
-body {
+/* DEPRECATED, obsidian source changed too much */
+
+/* body {
 	--callout-border-width:  0 0 0 4px;
 	--callout-border-opacity:  1;
 	--callout-radius: var(--radius-s);
@@ -45,4 +47,4 @@ ul {
 
 .callout .callout-content .callout {
 	margin: 1em 0;
-}
+} */

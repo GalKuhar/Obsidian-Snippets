@@ -2,55 +2,55 @@
 /* uses theme color */
 .callout[data-callout="d"],
 .callout[data-callout="default"] {
-    --callout-color: var(--color-accent-rgb);
+    --callout-color: var(--color-accent);
     --callout-icon: sticky-note;
 }
 
 /* BASE COLORS */
 .callout[data-callout="r"],
 .callout[data-callout="red"] {
-    --callout-color: var(--color-red-rgb);
+    --callout-color: var(--color-red);
     --callout-icon: sticky-note;
 }
 
 .callout[data-callout="o"],
 .callout[data-callout="orange"] {
-    --callout-color: var(--color-orange-rgb);
+    --callout-color: var(--color-orange);
     --callout-icon: sticky-note;
 }
 
 .callout[data-callout="y"],
 .callout[data-callout="yellow"] {
-    --callout-color: var(--color-yellow-rgb);
+    --callout-color: var(--color-yellow);
     --callout-icon: sticky-note;
 }
 
 .callout[data-callout="g"],
 .callout[data-callout="green"] {
-    --callout-color: var(--color-green-rgb);
+    --callout-color: var(--color-green);
     --callout-icon: sticky-note;
 }
 
 .callout[data-callout="c"],
 .callout[data-callout="cyan"] {
-    --callout-color: var(--color-cyan-rgb);
+    --callout-color: var(--color-cyan);
     --callout-icon: sticky-note;
 }
 
 .callout[data-callout="b"],
 .callout[data-callout="blue"] {
-    --callout-color: var(--color-blue-rgb);
+    --callout-color: var(--color-blue);
     --callout-icon: sticky-note;
 }
 
 .callout[data-callout="p"],
 .callout[data-callout="purple"] {
-    --callout-color: var(--color-purple-rgb);
+    --callout-color: var(--color-purple);
     --callout-icon: sticky-note;
 }
 
 .callout[data-callout="pink"] {
-    --callout-color: var(--color-pink-rgb);
+    --callout-color: var(--color-pink);
     --callout-icon: sticky-note;
 }
 
@@ -66,7 +66,7 @@
 /* Yellow */
 .callout[data-callout="idea"],
 .callout[data-callout="i"] {
-    --callout-color: var(--color-yellow-rgb);
+    --callout-color: var(--color-yellow);
     --callout-icon: lightbulb;
 }
 
@@ -75,8 +75,8 @@
 .callout[data-callout="s"],
 .callout[data-callout="selected"]
 {
-    --callout-color: var(--color-accent-rgb);
-    --callout-icon: "check-square";
+    --callout-color: var(--color-accent);
+    --callout-icon: check-square;
 }
 
 /* Empty */
@@ -86,15 +86,15 @@
 .callout[data-callout="empty"]
 {
     --callout-color: var(--callout-quote);
-    --callout-icon: "square";
+    --callout-icon: square;
 }
 
 /* X-mark */
 /* Red */
 .callout[data-callout="x"]
 {
-    --callout-color: var(--color-red-rgb);
-    --callout-icon: "x-square";
+    --callout-color: var(--color-red);
+    --callout-icon: x-square;
 }
 
 /* Slash */
@@ -102,8 +102,8 @@
 .callout[data-callout="/"],
 .callout[data-callout="slash"]
 {
-    --callout-color: var(--color-orange-rgb);
-    --callout-icon: "square-slash";
+    --callout-color: var(--color-orange);
+    --callout-icon: square-slash;
 }
 
 /* Plus */
@@ -111,8 +111,8 @@
 .callout[data-callout="+"],
 .callout[data-callout="plus"]
 {
-    --callout-color: var(--color-green-rgb);
-    --callout-icon: "plus-square";
+    --callout-color: var(--color-green);
+    --callout-icon: plus-square;
 }
 
 /* Minus */
@@ -120,8 +120,8 @@
 .callout[data-callout="-"],
 .callout[data-callout="minus"]
 {
-    --callout-color: var(--color-yellow-rgb);
-    --callout-icon: "minus-square";
+    --callout-color: var(--color-yellow);
+    --callout-icon: minus-square;
 }
 
 /* None */
@@ -131,7 +131,7 @@
 {
     color: var(--text-faint);
     --callout-color: var(--callout-quote);
-    --callout-icon: "box-select";
+    --callout-icon: box-select;
 }
 
 .callout[data-callout="n"]>.callout-title>.callout-title-inner,
@@ -143,7 +143,7 @@
 }
 
 /* Headers */
-.callout-title-inner h1,
+/* .callout-title-inner h1,
 .callout-title-inner h2,
 .callout-title-inner h3,
 .callout-title-inner h4,
@@ -182,4 +182,4 @@
     font-weight: unset;
     color: inherit;
 }
-  
+   */
